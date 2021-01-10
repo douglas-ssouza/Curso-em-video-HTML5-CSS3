@@ -9,8 +9,12 @@
     <body>
         <h1>Imagem flexível</h1>
         <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F609</p>
-        <img src="imagens/paisagem-g.png" alt="Mulher de braços abertos em montanha">
-        <img src="imagens/paisagem-m.png" alt="Mulher de braços abertos em montanha">
-        <img src="imagens/paisagem-p.png" alt="Mulher de braços abertos em montanha">
+        
+        <picture>
+            <source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+            <img src="imagens/paisagem-g.png" alt="Imagens dinâmimcas">
+        </picture>
+
     </body>
 </html>
