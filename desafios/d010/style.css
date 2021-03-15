@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Idroid';
+    background-image: linear-gradient(to left, rgb(99, 226, 99), rgb(152, 228, 152));
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, lightgreen, green);
+    color: white;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 20px;
+}
+
+header p {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+header nav {
+    overflow: hidden;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+}
