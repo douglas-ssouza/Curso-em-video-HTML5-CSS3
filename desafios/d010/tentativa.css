@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Idroid';
+    background-image: linear-gradient(to left, rgb(99, 226, 99), rgb(152, 228, 152));
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, lightgreen, green);
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
+
+header h1 {
+    margin: 0px;
+    padding: 20px;
+}
+
+header p {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+header nav {
+    overflow: hidden;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    padding: 1px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+
+section {
+    padding: 20px;
+}
+
+article > img{
+    margin: auto;
+    width: 100%;
+}
+
+#video {
+    background-color: darkgreen;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+    outline: 1px solid darkgreen;
+}
+
+#video > article {
+    background-color: black;
+    color: white;
+    height: 350px;
+    width: 100%;
+}
